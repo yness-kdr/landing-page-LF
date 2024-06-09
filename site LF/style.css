@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('backgroundLF.jpg') no-repeat center center/cover;
+    z-index: -1;
+    filter: brightness(0.5);
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-top: 6%;
+}
+
+img {
+    top: 0;
+    left: 0;
+    width: 60%;
+    height: 18%;
+    z-index: -1;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 3rem;
+}
+
+p {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.social-buttons a {
+    margin: 0 10px;
+    font-size: 2rem;
+    color: white;
+    transition: color 0.3s ease;
+    text-decoration: none;
+}
+
+.social-buttons a:hover {
+    color: #ddd;
+}
+
+footer {
+    font-size: 0.8rem;
+    text-align: center;
+    margin-top: 20%;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.7rem;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+footer img {
+    width: 20px;
+    /* Ajustez la taille selon vos besoins */
+    height: auto;
+    margin-right: 10px;
+    /* Espace entre l'image et le texte */
+}
